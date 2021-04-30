@@ -1,0 +1,14 @@
+
+    //myApi_call
+    implementation 'com.android.volley:volley:1.2.0'
+    //myProgressAnim
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'com.airbnb.android:lottie:3.6.0'
+    //swipe_up
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    //floating action button
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    //facebook loading animation
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    //wave progress
+    implementation 'com.race604.waveloading:library:1.1.1'
