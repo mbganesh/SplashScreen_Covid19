@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRACKIE"
+        android:gravity="center"
+        android:id="@+id/app_titleId"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/Splash_imageId"
+        android:layout_height="300dp"
+        android:layout_below="@+id/app_titleId"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_splash_image"
+        android:scaleType="fitXY"/>
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_rawRes="@raw/lottie_covid"
+        app:lottie_autoPlay="true"
+        android:id="@+id/lottie_covidId"
+        android:layout_below="@+id/Splash_imageId"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Developed By Ganesh"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
